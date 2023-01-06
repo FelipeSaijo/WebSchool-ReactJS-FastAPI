@@ -1,0 +1,70 @@
+### Back-End ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+BackEnd-FastAPI/.Python
+BackEnd-FastAPI/build/
+BackEnd-FastAPI/develop-eggs/
+BackEnd-FastAPI/dist/
+BackEnd-FastAPI/downloads/
+BackEnd-FastAPI/eggs/
+BackEnd-FastAPI/.eggs/
+BackEnd-FastAPI/lib/
+BackEnd-FastAPI/lib64/
+BackEnd-FastAPI/parts/
+BackEnd-FastAPI/sdist/
+BackEnd-FastAPI/var/
+BackEnd-FastAPI/wheels/
+BackEnd-FastAPI/share/python-wheels/
+*.egg-info/
+BackEnd-FastAPI/.installed.cfg
+*.egg
+BackEnd-FastAPI/MANIFEST
+
+*.manifest
+*.spec
+
+# Installer logs
+BackEnd-FastAPI/pip-log.txt
+BackEnd-FastAPI/pip-delete-this-directory.txt
+
+# Environments
+BackEnd-FastAPI/.env
+BackEnd-FastAPI/.venv
+BackEnd-FastAPI/env/
+BackEnd-FastAPI/venv/
+BackEnd-FastAPI/ENV/
+BackEnd-FastAPI/env.bak/
+BackEnd-FastAPI/venv.bak/
+
+### Front-End ###
+# dependencies
+FrontEnd-ReactJS/web-school-app/node_modules
+FrontEnd-ReactJS/web-school-app/.pnp
+FrontEnd-ReactJS/web-school-app/.pnp.js
+
+# testing
+FrontEnd-ReactJS/web-school-app/coverage
+
+# production
+FrontEnd-ReactJS/web-school-app/build
+
+# misc
+FrontEnd-ReactJS/web-school-app/.DS_Store
+FrontEnd-ReactJS/web-school-app/.env.local
+FrontEnd-ReactJS/web-school-app/.env.development.local
+FrontEnd-ReactJS/web-school-app/.env.test.local
+FrontEnd-ReactJS/web-school-app/.env.production.local
+
+FrontEnd-ReactJS/web-school-app/npm-debug.log*
+FrontEnd-ReactJS/web-school-app/yarn-debug.log*
+FrontEnd-ReactJS/web-school-app/yarn-error.log*
+
+### VS-Code ###
+.vscode
