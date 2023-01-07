@@ -13,7 +13,7 @@ const SignUp = () => {
                         placeholder='exemplo@gmail.com'
                     />
                     <InputArea
-                        labeltext='password'
+                        labeltext='Password'
                         type='password'
                         placeholder='Insert your password'
                     />

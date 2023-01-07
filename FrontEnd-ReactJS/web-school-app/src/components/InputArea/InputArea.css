@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
+    justify-content: center;
+    width: 100%;
 }
 
 .input-area label {
@@ -9,8 +11,36 @@
 }
 
 .input-area input {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     border: 1px solid black;
     border-radius: 10px;
+}
+
+@media screen and (min-width: 800px) {
+    .input-area {
+        padding: 20px 0;
+    }
+
+    .input-area label {
+        padding-bottom: 10px;
+    }
+
+    .input-area input {
+        padding: 15px;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) { 
+
+    .input-area label {
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .input-area input {
+        padding: 20px;
+    }
+    
 }

@@ -5,8 +5,8 @@
 .formulary form {
     display: flex;
     flex-direction: column;
-    padding: 23px;
-    margin: 20px 10px 0 10px;
+    padding: 20px;
+    margin: 10%;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
@@ -26,4 +26,38 @@
 
 .formulary a:hover {
     color: blue;
+}
+
+@media screen and (min-width: 700px) {
+    .formulary form {
+        margin: 10% 25% 0 25%;
+        width: 400px;
+        height: 400px;
+    }
+
+    .formulary span {
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+    
+    .formulary a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .formulary form {
+        width: 600px;
+        height: 400px;
+        margin: 50px 0 0 50px;
+    }
+
+    .formulary span {
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+    
+    .formulary a {
+        font-size: 18px;
+    }
 }
