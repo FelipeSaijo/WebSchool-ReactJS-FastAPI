@@ -1,0 +1,29 @@
+.formulary {
+    height: 100vh;
+}
+
+.formulary form {
+    display: flex;
+    flex-direction: column;
+    padding: 23px;
+    margin: 20px 10px 0 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+    background-color: white;
+}
+
+.formulary span {
+    padding-bottom: 10px;
+}
+
+.formulary a {
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.formulary a:hover {
+    color: blue;
+}

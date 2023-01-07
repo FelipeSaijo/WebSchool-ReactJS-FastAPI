@@ -1,0 +1,21 @@
+.footer {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.footer p {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    margin: 2px;
+    padding: 2px;
+}
+
+.footer a {
+    margin: 2px;
+    padding: 2px;
+    text-decoration: none;
+    color: white;
+}

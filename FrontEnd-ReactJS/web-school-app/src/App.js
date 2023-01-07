@@ -1,21 +1,26 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
+// import axios from "axios";
+// import { useEffect, useState } from "react";
+
+import './App.css';
+import Footer from './components/Footer';
+import Header from "./components/Header";
+import SignUp from "./components/SignUp";
 
 function App() {
 
-  //axios.get('http://localhost:8000').then(res => { console.log(res); }).catch(erro => console.log(erro))
+  // const [body, setBody] = useState('');
 
-  const [body, setBody] = useState('');
-
-  useEffect( () => {
-    axios.get('http://localhost:8000')
-      .then(res => setBody(res.data['body']))
-      .catch(err => console.log(err))
-  },[])
+  // useEffect( () => {
+  //   axios.get('http://localhost:8000')
+  //     .then(res => setBody(res.data['body']))
+  //     .catch(err => console.log(err))
+  // },[])
 
   return (
-    <div className="App">
-      <h1>{body}</h1>
+    <div>
+      <Header/>
+      <SignUp/>
+      <Footer/>
     </div>
   );
 }

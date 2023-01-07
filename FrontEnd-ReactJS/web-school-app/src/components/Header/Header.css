@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    background-color: #000;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 30px rgba(100, 100, 100, 1);
+}
+
+.header h1 {
+    color: #FFF;
+    align-items: center;
+    font-size: 18px;
+}

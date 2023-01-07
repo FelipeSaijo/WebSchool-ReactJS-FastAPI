@@ -1,0 +1,16 @@
+.input-area {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.input-area label {
+    padding-bottom: 5px;
+}
+
+.input-area input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
