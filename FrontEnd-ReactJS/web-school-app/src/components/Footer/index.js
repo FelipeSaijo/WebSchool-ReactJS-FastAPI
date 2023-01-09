@@ -1,10 +1,10 @@
 import './Footer.css';
+import { IoBook } from "react-icons/io5";
 
 const Footer = () => {
     return(
         <div className='footer'>
-            <p>Web School</p>
-            <a href="/contact">Contact us</a>
+            <p><IoBook size={25}/> Web School</p>
         </div>
     );
 }

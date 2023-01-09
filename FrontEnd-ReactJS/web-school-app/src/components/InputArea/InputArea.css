@@ -3,18 +3,18 @@
     flex-direction: column;
     padding: 10px;
     justify-content: center;
-    width: 100%;
 }
 
 .input-area label {
     padding-bottom: 5px;
+    color: var(--primary-font-color);
 }
 
 .input-area input {
-    width: 90%;
+    width: 100%;
     padding: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
+    border: none;
+    border-radius: 15px;
 }
 
 @media screen and (min-width: 700px) {

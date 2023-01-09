@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from .entities.logindata import LoginData
+from .entities.userlogin import UserLogin
 
 
 app = FastAPI()
@@ -14,5 +14,5 @@ app.add_middleware(
 )   
 
 @app.post('/')
-async def login(logindata: LoginData):
-    print(logindata)
+async def login(serlogin: UserLogin):
+    print(userlogin)

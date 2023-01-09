@@ -29,18 +29,16 @@ const SignIn = () => {
         <div className="formulary">
             <form onSubmit={Login}>
                 <span>Login</span>
-                <div>
-                    <InputArea 
-                        labeltext='E-mail'
-                        type='email'
-                        placeholder='exemplo@gmail.com'
-                    />
-                    <InputArea
-                        labeltext='Password'
-                        type='password'
-                        placeholder='Insert your password'
-                    />
-                </div>
+                <InputArea 
+                    labeltext='E-mail'
+                    type='email'
+                    placeholder='exemplo@gmail.com'
+                />
+                <InputArea
+                    labeltext='Password'
+                    type='password'
+                    placeholder='Insert your password'
+                />
                 <button type="submit">Sign In</button>
                 <a href="/signup">Create account</a>
             </form>
